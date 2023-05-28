@@ -4,11 +4,11 @@ import { listCompany } from '@/utils/listCompany';
 
 const BannerIcons = () => {
     return (
-        <div className='bg-gray-200'>
-            <ul className='wrapper flex items-center justify-between p-3 '>
+        <div className='bg-gray-200 hidden tablet:block'>
+            <ul className='wrapper flex items-center justify-between p-3 gap-5 px-[15px]'>
                 {listCompany?.map((item, index) => (
                     <li key={index} className=''>
-                        <div className='rounded-lg overflow-hidden w-14 h-14 flex items-center justify-center bg-white'>
+                        <div className='rounded-lg overflow-hidden tablet:w-12 tablet:h-12 laptop:w-14 laptop:h-14 tablet:flex items-center justify-center bg-white'>
                             <img
                                 src={item?.src}
                                 alt={item?.name}

@@ -13,7 +13,7 @@ export default function Home() {
       <Nav />
       <Banner />
       <Compaties />
-      {/* <BannerIcons /> */}
+      <BannerIcons />
       <ContactBanner />
     </>
   )

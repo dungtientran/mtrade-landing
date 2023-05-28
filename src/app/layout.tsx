@@ -23,7 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className='max-w-[1920px] m-auto'>
+      <body className='max-w-[1920px] m-auto font-openSan'>
         <Header />
         <main>
           {children}

@@ -18,7 +18,7 @@ const Compaties = () => {
                     }
                 </h3>
                 <div >
-                    <ul className='grid grid-cols-3 tablet:grid-cols-6 tablet:gap-y-[80px]'>
+                    <ul className='grid grid-cols-3 tablet:grid-cols-6 tablet:gap-y-[80px] font-noto'>
                         {listCompany?.map((item, index) => (
                             <CardCompaty
                                 key={index}

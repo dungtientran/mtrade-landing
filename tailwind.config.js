@@ -13,6 +13,10 @@ module.exports = {
         'laptop': '1200px',
         'deskop': '1300px',
       },
+      fontFamily: {
+        openSan: ['Open sans'],
+        noto: ['Noto sans'],
+      },
       colors: {
         'red-light': '#E42628',
         'black-light': '#09142F',

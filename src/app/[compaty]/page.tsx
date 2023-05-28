@@ -44,7 +44,7 @@ const Compaty = ({ params }: Props) => {
   return (
     <div>
       <div>
-        <div className=' tablet:h-[450px] wrapper flex items-center justify-center my-[10px] px-[15px]'>
+        <div className=' tablet:h-[450px] wrapper flex items-center justify-center my-[10px] px-[15px] '>
           <img
             src={detailCompaty?.bannerDetails}
             alt={detailCompaty?.name}
@@ -52,7 +52,7 @@ const Compaty = ({ params }: Props) => {
           />
         </div>
         <div className='bg-green-light flex items-center justify-center'>
-          <div className='text-[14px] text-white py-3'>
+          <div className='text-[14px] text-white py-3 font-noto'>
             <p>Malaysia Company at Vietnam</p>
             <p>Công Ty Malaysia Tại Việt Nam</p>
           </div>

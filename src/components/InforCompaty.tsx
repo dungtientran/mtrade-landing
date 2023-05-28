@@ -13,7 +13,7 @@ export function InforCompaty({ name, email, infor, website, contactNumber }: IIn
   return (
     <>
       
-      <div className='px-[15px] text-[14px] flex-1 space-y-[10px]'>
+      <div className='px-[15px] text-[14px] flex-1 space-y-[10px] font-noto'>
         <strong>{name}</strong>
         <div>
           {/* <p>Address:</p> */}
